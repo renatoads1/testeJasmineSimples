@@ -113,5 +113,9 @@ describe('BasicumComponent', () => {
     expect(1).toBeDefined();
   });
 
+  it('testa se uma variavel é falsa', () => {
+    expect(false).toBeFalsy();
+  });
+
 
 });
