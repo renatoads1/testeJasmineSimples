@@ -117,5 +117,9 @@ describe('BasicumComponent', () => {
     expect(false).toBeFalsy();
   });
 
+  it('testa se uma string contem a letra c', () => {
+    expect('abc').toContain('c');
+  });
+
 
 });
